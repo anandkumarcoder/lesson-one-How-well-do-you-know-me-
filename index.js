@@ -44,7 +44,7 @@ var highScores = [
 
     console.log("current score is : ", score)
     console.log("--------")
-
+  }
 
 var question = [{
   question: "Q1: where do i live?\n\n a)Mumbai\n b)Bangalore\n c)New Delhi\n d)Kashmir\n",
@@ -78,6 +78,5 @@ function showScores() {
   console.log("Check out the high scores, if you should be there ping me and I'll update it");
 
  highScores.map(score => console.log(score.name, " : ", score.score))
-}
-
- showScores();
+} 
+  showScores();
